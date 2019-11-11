@@ -447,7 +447,7 @@
  
  .main-header .header-lower .logo{
      position: relative;
-     padding: 20px 0;
+     padding: 11px 0;
      -webkit-transition:all 300ms ease;
      -moz-transition:all 300ms ease;
      -ms-transition:all 300ms ease;
@@ -507,7 +507,7 @@
  
  .main-menu .navigation{
      position:relative;
-     margin:0px;
+     margin:5px;
      font-family: 'Chivo', sans-serif;
  }
  
@@ -636,12 +636,12 @@
  .main-menu .navigation > li > ul > li > a{
      position:relative;
      display:block;
-     padding:10px 20px;
+     padding: 4px 1px 10px 0px;
      line-height:24px;
      font-weight:400;
      font-size:15px;
      color:#ffffff;
-     text-align:left;
+     text-align: center;
      text-transform:capitalize;
      transition:all 500ms ease;
      -moz-transition:all 500ms ease;
@@ -974,6 +974,7 @@
      background-color: #152545;
      min-height: auto;
      z-index: 99999;
+     height: 65px;
  }
  
  .header-style-two .header-lower .nav-outer{
@@ -1007,7 +1008,7 @@
  .header-style-two .header-lower .social-icon-three{
      position: relative;
      float: left;
-     padding: 15px 0;
+     padding: 20px 0;
  }
  
  .social-icon-three{
@@ -1022,7 +1023,7 @@
  
  .social-icon-three li a{
      position: relative;
-     font-size: 18px;
+     font-size: 25px;
      line-height: 29px;
      color: #ffffff;
      font-weight: 400;
@@ -4564,7 +4565,7 @@
  
  .main-footer .footer-bottom .footer-nav ul li a{
      display: inline-block;
-     font-size: 15px;
+     font-size: 25px;
      line-height: 20px;
      color: #ffffff;
      font-weight: 400;
@@ -7198,3 +7199,54 @@
  .login-form ::-webkit-input-placeholder{color: #bbbbbb;}
  .login-form ::-moz-input-placeholder{color: #bbbbbb;}
  .login-form ::-ms-input-placeholder{color: #bbbbbb;}
+
+
+ 
+ blockquote {
+    position: relative;
+    text-align: left;
+    padding: 1.2em 0 2em 38px;
+    border: none;
+    margin: 20px auto 20px;
+    max-width: 800px;
+    width:100%;
+    display: block;
+}
+
+blockquote:after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    color: #66cc66;
+    top: 0;
+    background: -moz-linear-gradient(top,#66cc66 0%,#66cc66 60%,rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(top,#66cc66 0%,#66cc66 60%,rgba(255,255,255,0) 100%);
+    /* background: linear-gradient(to bottom,#66cc66 0%,#66cc66 60%,rgba(255,255,255,0) 100%); */
+}
+
+blockquote:before {
+    content:"\f10d";
+    font-family: "fontawesome";
+    font-size: 20px;
+    display: block;
+    margin-bottom: 0.8em;
+    font-weight: 400;
+    color: #66cc66;
+}
+
+blockquote > cite, 
+blockquote > p > cite {
+    display: block;
+    font-size: 16px;
+    line-height: 1.3em;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 1.1em;
+    letter-spacing: 0;
+    font-style:italic;
+}
+
+
