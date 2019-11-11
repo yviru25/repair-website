@@ -626,6 +626,7 @@
  .main-menu .navigation > li > ul > li{
      position:relative;
      width:100%;
+     padding: 5px;
      border-bottom:1px solid rgba(255,255,255,0.10);
  }
  
@@ -641,7 +642,7 @@
      font-weight:400;
      font-size:15px;
      color:#ffffff;
-     text-align: center;
+     text-align: left;
      text-transform:capitalize;
      transition:all 500ms ease;
      -moz-transition:all 500ms ease;
@@ -1151,7 +1152,7 @@
  
  .sec-title{
      position:relative;
-     margin-bottom:65px;
+     margin-bottom:45px;
  }
  
  .sec-title h2{
@@ -1328,7 +1329,7 @@
  
  .about-us{
      position: relative;
-     padding: 75px 0 80px;
+    /*  padding: 75px 0 80px; */
  }
  
  .about-us:before{
@@ -1537,7 +1538,7 @@
  
  .services-section{
      position: relative;
-     padding:120px 0 55px;
+     /* padding:120px 0 55px; */
  }
  
  .service-block{
@@ -1624,7 +1625,7 @@
  
  .services-section-two{
      position: relative;
-     padding: 75px 0;
+     padding: 20px 0;
  }
  
  .services-section-two .services-carousel{
@@ -2060,6 +2061,7 @@
  
  .fun-fact-section .fact-counter{
      position: relative;
+     margin-left: 198px;
  }
  
  .fun-fact-section .counter-column{
@@ -4548,7 +4550,7 @@
  
  .main-footer .footer-bottom .footer-nav ul{
      position: relative;
-     padding:36px 0;
+     padding:36px 36px;
  }
  
  .main-footer .footer-bottom .footer-nav ul li{
