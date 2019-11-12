@@ -11,6 +11,7 @@
 <link href="../css/navigation.css" rel="stylesheet" type="text/css"><!-- REVOLUTION NAVIGATION STYLES -->
 <link href="../css/style.css" rel="stylesheet">
 <link href="../css/responsive.css" rel="stylesheet">
+<link rel="stylesheet" href="contact-us.css">
 
 <!--Color Switcher Mockup-->
 <link href="../css/color-switcher-design.css" rel="stylesheet">
@@ -33,8 +34,8 @@
     <!-- Preloader -->
     <div class="preloader"></div>
     
-    <!-- Main Header-->
-    <header class="main-header header-style-two">
+      <!-- Main Header-->
+      <header class="main-header header-style-two">
 
         <!--   Header Upper 
          <div class="header-upper">
@@ -85,8 +86,8 @@
                                         <li><a href="../about-us/about-us.html">About Us</a></li>
                                      <li class="dropdown"><a href="#">Request Service</a>
                                          <ul>
-                                             <li><a href="ptr.html">Cell Phone/Tablet Repairs </a></li>
-                                             <li><a href="cmp-repair.html">Computer Repairs</a></li>
+                                             <li><a href="../phone-repair/ptr.html">Cell Phone/Tablet Repairs </a></li>
+                                             <li><a href="../phone-repair/cmp-repair.html">Computer Repairs</a></li>
                                              <li><a href="#">Gaming Console Repairs </a></li>
                                              <li><a href="#">Smartwatch Repairs </a></li>
                                              <li><a href="#">TV Mount/Setup</a></li>
@@ -97,9 +98,9 @@
                                      </li>
  
                                      <!-- <li><a href="phone-repair/ptr.html">Phone & Tablet Repair</a></li> -->
-                                    
+                                     <!-- <li><a href="../in-home-setup/in-home-setup.html">In-Home Setups</a></li> -->
                                      <!-- <li><a href="other-services/other-service.html">Other Services</a></li> -->
-                                     <li><a href="../contact-us/contact-us.html">Contact Us</a></li>
+                                     <li class="current"><a href="contact-us.html">Contact Us</a></li>
                                  </ul>
                              </div>
                          </nav>
@@ -124,7 +125,7 @@
              <div class="auto-container clearfix">
                  <!--Logo-->
                  <div class="logo pull-left">
-                     <a href="../index.html" title=""><img src="../images/logo-2.png" alt="" title=""></a>
+                     <a href="../index.html" title=""><img src="../images/logo-1.png" alt="" title=""></a>
                  </div>
                  <!--Right Col-->
                  <div class="pull-right">
@@ -136,8 +137,8 @@
                                     <li><a href="../about-us/about-us.html">About Us</a></li>
                                  <li class="dropdown"><a href="#">Request Service</a>
                                      <ul>
-                                        <li><a href="ptr.html">Cell Phone/Tablet Repairs </a></li>
-                                        <li><a href="cmp-repair.html">Computer Repairs</a></li>
+                                        <li><a href="../phone-repair/ptr.html">Cell Phone/Tablet Repairs </a></li>
+                                        <li><a href="../phone-repair/cmp-repair.html">Computer Repairs</a></li>
                                          <li><a href="#">Gaming Console Repairs </a></li>
                                          <li><a href="#">Smartwatch Repairs </a></li>
                                          <li><a href="#">TV Mount/Setup</a></li>
@@ -148,9 +149,9 @@
                                  </li>
  
                                  <!-- <li><a href="phone-repair/ptr.html">Phone & Tablet Repair</a></li> -->
-                                 <li><a href="in-home-setup/in-home-setup.html">In-Home Setups</a></li>
+                              
                                  <!-- <li><a href="other-services/other-service.html">Other Services</a></li> -->
-                                 <li><a href="../contact-us/contact-us.html">Contact Us</a></li>
+                                 <li class="current"><a href="contact-us.html">Contact Us</a></li>
                              </ul>
                          </div>
                      </nav><!-- Main Menu End-->
@@ -164,64 +165,115 @@
      <section class="page-title" style="background-image:url(../images/6.jpg);">
         <div class="auto-container">
             <div class="inner-container clearfix">
-                <h1>Cell Phones/Tablet Repair</h1>
+                <h1>Contact Us</h1>
             </div>
         </div>
     </section>
     <!--End Page Title-->
 
-    <!-- Phone Services Section -->
-    <section class="services-section-two">
-        <div class="auto-container">
-            <div class="sec-title text-center">
-                <h2>Mobo Devices</h2>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="text">
-                            We specialize in repairing iPhones and iPads (all generations), Samsung phones 
-                            and tablets (all models), Motorola phones and tablets, LG phones and tablets, 
-                            Google phones, HTC, LG, Motorola, Blackberry, Nokia, Sonny, and other phone 
-                            and tablet brands. Below are some of the repair services we offer and we come to 
-                            you at your convenience location and time.
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" style="margin-top: 30px;">
+                <div class="body-title">
+                    <div class="content-wrap">
+                        <div class="container">
+                            <div class="row">
+                
+                                <div class="col-sm-12 col-md-12 col-lg-8">
+                                    
+                                    <h2 class="section-heading text-left mb-5">
+                                        Get in Touch
+                                    </h2>
+                                    <p>Please let us know how we can help!</p>
+                                    <form action="#" class="form-contact" id="contactForm">
+                                        <div class="row">
+                                            <div class="col-sm-6 col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="p_name" placeholder="First Name" required>
+                                                </div>  
+                                            </div>
+                                            <div class="col-sm-6 col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="p_email" placeholder="Last Name" required="">
+                                                    <div class="help-block with-errors"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6">
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" required id="p_subject" placeholder="E-Mail">
+                                                    <div class="help-block with-errors"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' required class="form-control" id="p_phone" maxlength="10" placeholder="Mobile Number">
+                                                    <div class="help-block with-errors"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                             <textarea id="p_message" required class="form-control" rows="6" placeholder="Enter Your Message"></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="text-left">
+                                                <div id="success"></div>
+                                                <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+                                            </div>
+                                        </div>
+                                    </form>	
+                
+                                    
+                                </div>
+                
+                                <div class="col-sm-12 col-md-12 col-lg-4">
+                                    <h4 class="section-heading text-left mb-5">
+                                        CONTACT DETAILS
+                                    </h4>
+                                    <!-- Item 1 -->
+                                    <div class="rs-icon-info-2">
+                                        <div class="info-icon">
+                                            <i class="fa fa-map-marker"></i>
+                                        </div>
+                                        <div class="body-text">
+                                            <h4 class="text-bold">Address</h4>
+                                            <p>iFix DMV,LLC, Upper Marlboro, Maryland, USA</p>
+                                        </div>
+                                    </div><br>
+                                    <!-- Item 2 -->
+                                    <div class="rs-icon-info-2">
+                                        <div class="info-icon">
+                                            <i class="fa fa-phone"></i>
+                                        </div>
+                                        <div class="body-text">
+                                            <h4 class="text-bold">Phone</h4>
+                                            <p>240-353-0251</p>
+                                        </div>
+                                    </div><br>
+                                    <!-- Item 3 -->
+                                    <div class="rs-icon-info-2">
+                                        <div class="info-icon">
+                                            <i class="fa fa-envelope"></i>
+                                        </div>
+                                        <div class="body-text">
+                                            <h4 class="text-bold">Email</h4>
+                                            <p>support@ifixdmv.com</p>
+                                        </div>
+                                    </div>
+                
+                                </div>
+                                
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-6 text-right">
-                        <img src="images/phone-rpr.png" alt="">
-                    </div>
-                </div>
+                 </div>     
+                </div>     
             </div>
-            <br>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6">
-                        <ul class="list-group">
-                            <li class="list-group-item">Screen repair/replace</li>
-                            <li class="list-group-item">Battery replacement</li>
-                            <li class="list-group-item">Camera replacement</li>
-                            <li class="list-group-item">Water damage</li>
-                            <li class="list-group-item">Charging port issues</li>
-                            <li class="list-group-item">Power button repairs</li>
-                          </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <ul class="list-group">
-                            <li class="list-group-item">Home button repairs</li>
-                            <li class="list-group-item">Side buttons repairs</li>
-                            <li class="list-group-item">Headphone jack issues</li>
-                            <li class="list-group-item">Frame damage</li>
-                            <li class="list-group-item">And more...</li>
-                          </ul>
-                    </div>
-                </div>
-            </div>
-            
-            
         </div>
-    </section>
-    <!--End Phone Services Section -->
+</div><!-- /.container -->  
 
+   
     <!-- Main Footer -->
     <footer class="main-footer" style="background-image: url(images/background/3.jpg);">
         
