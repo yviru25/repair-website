@@ -305,8 +305,9 @@
  
  img{
      display:inline-block;
-     max-width:100%;
-     height:auto;	
+     max-width:75%;
+     height:auto;
+     margin-top: 4px;	
  }
  
  /*** 
@@ -457,8 +458,9 @@
  
  .main-header .header-lower .logo img{
      position: relative;
-     max-width: 100%;
+     max-width: 75%;
      height: auto;
+     margin-top: 5px;
  }
  
  .main-header .header-lower .nav-outer{
