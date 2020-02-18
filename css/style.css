@@ -305,9 +305,9 @@
  
  img{
      display:inline-block;
-     max-width:75%;
+     max-width:100%;
      height:auto;
-     margin-top: 4px;	
+     margin-top: 0px;	
  }
  
  /*** 

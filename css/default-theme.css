@@ -248,7 +248,7 @@ a.ui-button:active, .ui-button:active,
 	.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a,
 	.main-menu .navbar-collapse > .navigation > li.current > a,
 	.main-menu .navbar-collapse > .navigation > li.current-menu-item > a{
-		background-color:#43c3ea;
+		background-color: #b78a39;
 	}
 	
 }
