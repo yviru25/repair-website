@@ -1162,7 +1162,7 @@
      line-height: 1.2em;
      color: #152545;
      font-weight: 700;
-     padding-bottom: 25px;
+     padding-bottom: 10px;
  }
  
  .sec-title h2:before{
@@ -1357,7 +1357,7 @@
  }
  
  .about-us .content-column .inner-column{
-      padding-top: 45px;
+      padding-top: 20px;
       padding-right: 30px;
  }
  
